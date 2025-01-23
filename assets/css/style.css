@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-mulish {
+    font-family: 'Mulish', sans-serif;
+}
+
+.gunel-color {
+    @apply text-[#000] hover:text-[#d64b47] transition-all duration-300;
+}
+
+
