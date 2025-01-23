@@ -2488,6 +2488,21 @@
       max-width: var(--container-2xl);
     }
   }
+  .lg\:max-w-lg {
+    @media (width >= 64rem) {
+      max-width: var(--container-lg);
+    }
+  }
+  .lg\:max-w-md {
+    @media (width >= 64rem) {
+      max-width: var(--container-md);
+    }
+  }
+  .lg\:max-w-xl {
+    @media (width >= 64rem) {
+      max-width: var(--container-xl);
+    }
+  }
   .lg\:basis-1\/2 {
     @media (width >= 64rem) {
       flex-basis: calc(1/2 * 100%);
